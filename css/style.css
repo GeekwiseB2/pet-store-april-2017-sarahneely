@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Satisfy');
 
 /*HEADER*/
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 .logo {
   width: 120px;
 }
@@ -35,4 +41,33 @@
 
 .thumbnail img {
   padding: 9px;
+}
+
+.nav-pills>.
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: transparent;
+}
+
+/*FOOTER SECTION*/
+footer {
+  height: 150px;
+  background-color: #000;
+}
+
+footer img {
+  width: 120px;
+}
+
+.section-border {
+  border-right: 1px solid #323232;
+}
+
+.medium-grey {
+  color: #aaaaab;
+  padding-top: 25px;
+}
+
+.font_awesome {
+  font-size: 20px;
 }
